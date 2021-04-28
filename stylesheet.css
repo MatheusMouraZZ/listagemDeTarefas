@@ -1,0 +1,59 @@
+:root {
+    --nomeDaVariavel: red
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(198,43,0,1) 0%, rgba(64,17,0,1) 100%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.greatBox {
+    width: 75vh;
+    height: 80vh;
+    background-color: #643c00;
+    margin: 75px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    box-shadow: 10px 10px 2px #523100;
+    
+}
+.papelzin {
+    margin: 25px 40px;
+    width: 65vh;
+    height: 70vh;
+    background-color: rgb(255, 255, 255);
+}
+.primeiroInput {
+    border: 3px solid whitesmoke;
+    border-radius: 6px;
+    padding: 5px;
+}
+.botao {
+    background-color: rgb(69, 61, 170);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: whitesmoke;
+    border-color: rgb(69, 61, 170);
+    margin: 0px 0px 25px 0px;
+}
+.papelzin::before {
+    display: block;
+    content: "";
+    color: red;
+    position: absolute;
+    left: 690px;
+    border: red 1px solid;
+    height: 642px;
+}
+.container{
+    border-bottom: 2px rgb(110, 110, 110) solid;
+}
